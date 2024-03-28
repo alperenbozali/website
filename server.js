@@ -33,6 +33,11 @@ app.get('/hakkimizda', (req, res) => {
     res.render('about');
 });
 
+app.get('/iletisim', (req, res) => {
+    console.log('İletisim sayfası açıldı.');
+    res.render('contact');
+});
+
 
 
 
