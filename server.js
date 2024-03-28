@@ -1,3 +1,4 @@
+const { log } = require('console');
 const express = require('express');
 const app = express();  
 const path  = require('path');
@@ -18,12 +19,22 @@ app.get('/', (req, res) => {
 //Ürün sayfası için route
 app.get('/urunler', (req, res) => {
     res.render('urunler');
+    console.log('Ürünler sayfası açıldı.');
 });
 
-//Ürün detay sayfası için route
 app.get('/urunler/:id', (req, res) => {
-    res.render('urun-detay');
+    console.log('Ürün detay sayfası açıldı.');
+    console.log(req.params.id);
+    res.render('urun-detay', {id: req.params.id});
 });
+
+app.get('/hakkimizda', (req, res) => {
+    console.log('Hakkımızda sayfası açıldı.');
+    res.render('about');
+});
+
+
+
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

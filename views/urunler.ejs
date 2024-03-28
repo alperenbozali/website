@@ -44,19 +44,17 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Siteler Ahşap<span></span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
+      <h1 class="logo"><a href="#">Siteler Ahşap<span></span></a></h1>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="/ürünler">Home</a></li>
+          <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#portfolio">Portfolio</a>
+          <li class="dropdown active"><a class="nav link scrollto active" data-toggle="dropdown" href="/urunler">Portfolio</a>
             <ul class="dropdown-menu">
-              <li><a href ="#">Item 1</a></li>
-              <li><a href ="#">Item 2</a></li>
-              <li><a href ="#">Item 3</a></li>
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+              <li><a href="#">Item 3</a></li>
           </li>
         </ul>
         </li>
@@ -87,9 +85,13 @@
             autem.</p>
         </div>
 
+        </br>
+        </br>
+        </br>
+        </br>
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/alperendoor.jpg" class="img-fluid" alt="" onclick="redirectToProduct(1)">
             <p>Kapı 1</p>
           </div>
@@ -101,14 +103,36 @@
           </script>
 
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/alperendoor.jpg" class="img-fluid" alt="" onclick="redirectToProduct(2)">
             <p>Kapı 2</p>
           </div>
 
           <script>
             function redirectToProduct(id) {
-              window.location.href = "/urunler/kapı" + id;
+              window.location.href = "/urunler/" + id;
+            }
+          </script>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/alperendoor.jpg" class="img-fluid" alt="" onclick="redirectToProduct(3)">
+            <p>Kapı 3</p>
+          </div>
+
+          <script>
+            function redirectToProduct(id) {
+              window.location.href = "/urunler/" + id;
+            }
+          </script>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/alperendoor.jpg" class="img-fluid" alt="" onclick="redirectToProduct(4)">
+            <p>Kapı 4</p>
+          </div>
+
+          <script>
+            function redirectToProduct(id) {
+              window.location.href = "/urunler/" + id;
             }
           </script>
         </div>
