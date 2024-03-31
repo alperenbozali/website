@@ -2,9 +2,16 @@ const { log } = require("console");
 const express = require("express");
 const app = express();
 const path = require("path");
-const fs = require("fs");
+const fs = require("fs"); 
+
+
+//Route'ları import ediyoruz.
+const portfoliRoutes = require("./routes/RoutePortfolio");
+const mainRoutes = require("./routes/RouteMain");
 
 app.set("view engine", "ejs");
+
+
 
 //JSON dosyasını okuyoruz.
 const data = JSON.parse(fs.readFileSync("./data.json", "utf-8"));

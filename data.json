@@ -1,26 +1,43 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Ürün 1",
-            "description": "Ürün 1 Açıklama",
-            "image": "path/to/image1.jpg",
-            "price": 100
-        },
-        {
-            "id": 2,
-            "name": "Ürün 2",
-            "description": "Ürün 2 Açıklama",
-            "image": "path/to/image2.jpg",
-            "price": 150
-        },
-        {
-            "id": 3,
-            "name": "Ürün 3",
-            "description": "Ürün 3 Açıklama",
-            "image": "/assets/img/portfolio/alperendoor.jpg",
-            "price": 200,
-            "title": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua Ut Enim Ad Minim Veniam Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur Excepteur Sint Occaecat Cupidatat Non Proident Sunt In Culpa Qui Officia Deserunt Mollit Anim Id Est Laborum"
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Ürün 1",
+      "description": "Ürün 1 Açıklama",
+      "image": "path/to/image1.jpg",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "name": "Ürün 2",
+      "description": "Ürün 2 Açıklama",
+      "image": "path/to/image2.jpg",
+      "price": 150
+    },
+    {
+      "id": 3,
+      "name": "Ürün 3",
+      "description": "Ürün 3 Açıklama",
+      "image": "/assets/img/portfolio/alperendoor.jpg",
+      "price": 200,
+      "title": "Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magna Aliqua Ut Enim Ad Minim Veniam Quis Nostrud Exercitation Ullamco Laboris Nisi Ut Aliquip Ex Ea Commodo Consequat Duis Aute Irure Dolor In Reprehenderit In Voluptate Velit Esse Cillum Dolore Eu Fugiat Nulla Pariatur Excepteur Sint Occaecat Cupidatat Non Proident Sunt In Culpa Qui Officia Deserunt Mollit Anim Id Est Laborum"
+    }
+  ],
+
+  "door": [
+    {
+      "id": 1,
+      "name": "Kapı 1",
+      "description": "Kapı 1 Açıklama",
+      "image":"assets/img/portfolio/alperendoor.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Kapı 2"
+    },
+    {
+      "id": 3,
+      "name": "Kapı 3"
+    }
+  ]
 }
