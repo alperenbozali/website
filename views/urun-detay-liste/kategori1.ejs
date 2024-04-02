@@ -50,10 +50,11 @@
         <ul>
           <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/hakkimizda">About</a></li>
-          <li class="dropdown active"><a class="nav link scrollto active" data-toggle="dropdown" href="/urunler">Portfolio</a>
+          <li class="dropdown active"><a class="nav link scrollto active" data-toggle="dropdown"
+              href="/urunler">Portfolio</a>
             <ul class="dropdown-menu">
-              <li><a href="#">Kapı</a></li>
-              <li><a href="#">Örnek 2</a></li>
+              <li><a href="/kapilar">Kapı</a></li>
+              <li><a href="/pencereler">Örnek 2</a></li>
               <li><a href="#">Örnek 3</a></li>
           </li>
         </ul>
@@ -132,6 +133,22 @@
               window.location.href = "/urunler/" + id;
             }
           </script>
+
+          <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/alperendoor.jpg" class="img-fluid" alt="" onclick="redirectToProduct(5)">
+            <p>Kapı 4</p>
+          </div>
+
+          <script>
+            function redirectToProduct(id) {
+              window.location.href = "/urunler/" + id;
+            }
+          </script>
+
+
+
+
+
         </div>
     </section><!-- End Portfolio Section -->
 
